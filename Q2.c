@@ -13,3 +13,15 @@ c)
             max(arr, largest, end);
             return largestIndex;			
        
+
+      
+  d)
+        
+        void rec_ssort(int arr[], int n) {
+               	int i=n-1;
+                  if(i > 0 ) {
+                        maxIndex = max(arr, i, 0);
+                        swap(arr, i, maxIndex);
+			      i--;
+		      }
+        }
